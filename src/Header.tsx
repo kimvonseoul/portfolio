@@ -4,13 +4,11 @@ import {IntlProvider} from 'react-intl';
 
 function Header(locale:any) {
     return(
-        <IntlProvider locale="ko" messages={locale}>
-            <header>
+        <header>
             <h1>
                 <FormattedMessage id="header" />
             </h1>
         </header>
-        </IntlProvider>
         
     )
 }

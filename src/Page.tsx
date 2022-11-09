@@ -7,6 +7,7 @@ import enMessage from './lang/en.json';
 import jpMessage from './lang/jp.json';
 import { object } from "prop-types";
 import Header from "./Header";
+import Body from './Body'
 
 function Page(){
     //const msg = locale + "Message";
@@ -27,6 +28,7 @@ function Page(){
                     jpOnclick={jpOnclick}
 
                 />
+                <Body />
                 <p>
                     <FormattedMessage 
                         id="title"
