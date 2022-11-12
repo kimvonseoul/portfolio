@@ -29,12 +29,6 @@ function Page(){
 
                 />
                 <Body />
-                <p>
-                    <FormattedMessage 
-                        id="title"
-                        //values={{locale:"en"}}
-                        />
-                </p>
             </IntlProvider>
     );
 };

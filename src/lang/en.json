@@ -1,6 +1,28 @@
 {
     "title": "portfolio",
-    "header": "Portfolio",
+    "header": "Jeonghu's portfolio",
     "name": "Jeonghu Kijm",
-    "resume": "resume"
+    "resume": "resume",
+
+    "story.title": "story",
+    "story.subtitle1": "why programing?",
+
+    "story.subtitle2": "RaspberryPi",
+    "story.subtitle2.p1": "2018, a second years of highschool, I knew about RaspberryPi, a computer for educating and I bought it. ",
+    "story.subtitle2.p2": "At first, I though it is normal computer, but it wasn't. ",
+    "story.subtitle2.p3": "It didn't have monitor, even OS was not installed, so I should have to install Linux and to set settings by my self. ",
+    "story.subtitle2.p4": "Through the trial and error with entering commands, I've learned more about how computers acturally works and got more interested in computer and how it works. ",
+
+    "story.subtitle3": "First project: Raspberry Pi server, 2019",
+    "story.subtitle3.p1": "After I got the RaspberryPi, I didn't know what should I have to do with it. ",
+    "story.subtitle3.p2": "I'd searched on the internet how to use a RaspberryPi and I found a post which said I can use it for making server. ",
+    "story.subtitle3.p3": "So at the next, I searched what is required for making server. ",
+    "story.subtitle3.p4": "I've learnd HTML and CSS to make web pages and have learned Node.js for run the actual server for the web pages. ",
+    "story.subtitle3.p5": "Actually, since I had no idea what acutally I should make, so I didn't ran a server for a long time. ",
+    "story.subtitle3.p6": "But it was a good experience for the server that I made next time. ",
+
+    "story.subtitle4": "Project 2: School community server, 2020",
+    "story.subtitle4.p1": "While chatting with friends at a group chat, I felt group chat doesn't have enough function, so I should make a server for community. ",
+    "story.subtitle4.p2": "With using Express, framework of Node.js, I made a server for bulletin board and used MySQL as well, which is a database, so that we can save posts and reply on the posts. ",
+    "story.subtitle4.p3": "Even I added many function such like login, updating and deleting posts, functions of the server was too poor and after graduating highschool, friends rarely used the server so I stopped it. "
 }
