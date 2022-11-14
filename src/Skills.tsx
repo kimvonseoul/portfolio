@@ -1,11 +1,12 @@
 import React from 'react';
-
+import {FormattedMessage} from 'react-intl';
 function Skills(){
     return(
         <>
-        <p>this is skills.</p>
-        <p>Basic skills: HTML, CSS, JS, TS, Node.js</p>
-        <p>Basic knowledges: python, MySQL, Git&GitHub</p>
+        <h3><FormattedMessage id="skills" /></h3>
+
+        <p><FormattedMessage id="skills.p1" /></p>
+        <p><FormattedMessage id="skills.p2" /></p>
         </>
     )
 }

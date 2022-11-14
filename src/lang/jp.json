@@ -1,6 +1,9 @@
 {
     "title": "ポートフォリオ",
     "header": "ジョンフのポートフォリオ",
+    "skills": "-スキル",
+    "skills.p1": "基本的なスキル: HTML, CSS, JS, TS, Node.js",
+    "skills.p2": "基礎的な知識: python, MySQL, Git&GitHub",
     "story.title": "ストーリー",
     "story.subtitle1": "なぜプログラミングか？",
     "story.subtitle2": "ラズベリーパイとの出会い",

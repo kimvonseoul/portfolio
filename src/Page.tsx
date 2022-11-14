@@ -8,6 +8,7 @@ import jpMessage from './lang/jp.json';
 import { object } from "prop-types";
 import Header from "./Header";
 import Body from './Body'
+import Nav from "./Navigation";
 
 function Page(){
     //const msg = locale + "Message";
@@ -15,21 +16,25 @@ function Page(){
     //const e:object = enMessage;
     const msg = [enMessage, koMessage, jpMessage];
     const [locale, setLocale] = useState(msg[0]);
-    const koOnclick:any = () => setLocale(msg[1]);
+    const koOnclick:any = () => {
+        setLocale(msg[1]);
+        alert('ko');
+    };
     const enOnclick:any = () => setLocale(msg[0]);
     const jpOnclick:any = () => setLocale(msg[2]);
     //const koMessage: object = 
     return(
-            <IntlProvider locale="ko" messages={locale}>
-                <Header />
-                <LangB 
-                    koOnclick={koOnclick}
-                    enOnclick={enOnclick}
-                    jpOnclick={jpOnclick}
+            <>
+            <IntlProvider locale="ko" messages={locale} >
+                <Header 
+                 koOnclick={koOnclick}
+                 enOnclick={enOnclick}
+                 jpOnclick={jpOnclick}
 
                 />
                 <Body />
             </IntlProvider>
+            </>
     );
 };
 

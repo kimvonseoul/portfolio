@@ -1,6 +1,10 @@
 {
     "title": "포트폴리오",
-    "header": "정후의 포트폴리오",
+    "header": "김정후 포트폴리오",
+    "skills": "-기술",
+    "skills.p1": "기본적인 스킬: HTML, CSS, JS, TS, Node.js",
+    "skills.p2": "기초지식: python, MySQL, Git&GitHub",
+
     "story.title": "스토리",
     "story.subtitle1": "왜 프로그래밍인가?",
     "story.subtitle2": "라즈베리파이와의 만남",

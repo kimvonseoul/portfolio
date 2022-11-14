@@ -2,6 +2,10 @@
     "title": "portfolio",
     "header": "Jeonghu's portfolio",
     "name": "Jeonghu Kijm",
+    "skills": "-Skills",
+    "skills.p1": "Basic skills: HTML, CSS, JS, TS, Node.js",
+    "skills.p2": "Basic knowledges: python, MySQL, Git&GitHub",
+
     "resume": "resume",
 
     "story.title": "story",
