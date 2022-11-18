@@ -5,6 +5,7 @@ import Skills from './Skills';
 import Story from './Story';
 
 function Body() {
+    
     return(
         <div className="body">
             <Aboutme />

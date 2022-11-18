@@ -1,6 +1,9 @@
 {
     "title": "포트폴리오",
     "header": "김정후 포트폴리오",
+    "about" : "-About",
+    "about.bd" : "생년월일: 2002년 06월 07일",
+    "about.experience" : "경험",
     "skills": "-기술",
     "skills.p1": "기본적인 스킬: HTML, CSS, JS, TS, Node.js",
     "skills.p2": "기초지식: python, MySQL, Git&GitHub",

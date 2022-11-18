@@ -1,6 +1,9 @@
 {
     "title": "ポートフォリオ",
     "header": "ジョンフのポートフォリオ",
+    "about" : "-基本情報",
+    "about.bd" : "生年月日：2002年06月7日",
+    "about.experience" : "ガクチカ",
     "skills": "-スキル",
     "skills.p1": "基本的なスキル: HTML, CSS, JS, TS, Node.js",
     "skills.p2": "基礎的な知識: python, MySQL, Git&GitHub",

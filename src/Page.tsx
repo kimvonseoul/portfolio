@@ -9,6 +9,7 @@ import { object } from "prop-types";
 import Header from "./Header";
 import Body from './Body'
 import Nav from "./Navigation";
+import { json } from "body-parser";
 
 function Page(){
     //const msg = locale + "Message";
@@ -18,11 +19,12 @@ function Page(){
     const [locale, setLocale] = useState(msg[0]);
     const koOnclick:any = () => {
         setLocale(msg[1]);
-        alert('ko');
+        //alert('ko');
     };
     const enOnclick:any = () => setLocale(msg[0]);
     const jpOnclick:any = () => setLocale(msg[2]);
-    //const koMessage: object = 
+
+
     return(
             <>
             <IntlProvider locale="ko" messages={locale} >

@@ -3,11 +3,11 @@ import {FormattedMessage} from 'react-intl';
 
 function Stroy(){
     return(
-        <>
-            <h4><FormattedMessage id="story.title" /></h4>
+        <div>
+            <h4 className="paragraph:shown"><FormattedMessage id="story.title" /></h4>
             <h5><FormattedMessage id="story.subtitle1" /></h5>
             <h5><FormattedMessage id="story.subtitle2" /></h5>
-            <p>
+            <p className="paragraph">
                 <FormattedMessage id="story.subtitle2.p1" />
                 <FormattedMessage id="story.subtitle2.p2" />
                 <FormattedMessage id="story.subtitle2.p3" />
@@ -28,7 +28,7 @@ function Stroy(){
                 <FormattedMessage id="story.subtitle4.p2" />
                 <FormattedMessage id="story.subtitle4.p3" />
             </p>
-        </>
+        </div>
     )
 }
 

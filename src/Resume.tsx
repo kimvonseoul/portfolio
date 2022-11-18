@@ -5,7 +5,7 @@ function Resume(locale:any){
         alert('ko');
     }
     return(
-        <>
+        <div>
         <h3>-Resume</h3>
         <p><a href="./resume.pdf" download>download</a></p>
         <tbody className="resume">
@@ -41,7 +41,7 @@ function Resume(locale:any){
                 
             </tr>
         </tbody>
-        </>
+        </div>
         
     )
 }
