@@ -7,8 +7,8 @@ function Resume(locale:any){
     return(
         <div>
         <h3>-Resume</h3>
-        <p><a href="./resume.pdf" download>download</a></p>
-        <tbody className="resume">
+        <div className="resume">
+        <tbody >
             <tr>
                 <td>Education</td>
                 <td>
@@ -41,6 +41,7 @@ function Resume(locale:any){
                 
             </tr>
         </tbody>
+        </div>
         </div>
         
     )

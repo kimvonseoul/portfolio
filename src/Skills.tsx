@@ -2,7 +2,7 @@ import React from 'react';
 import {FormattedMessage} from 'react-intl';
 function Skills(){
     return(
-        <div>
+        <div className="skills">
         <h3><FormattedMessage id="skills" /></h3>
 
         <p><FormattedMessage id="skills.p1" /></p>

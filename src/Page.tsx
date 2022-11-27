@@ -5,11 +5,10 @@ import LangB from "./LangB";
 import koMessage from './lang/ko.json';
 import enMessage from './lang/en.json';
 import jpMessage from './lang/jp.json';
-import { object } from "prop-types";
 import Header from "./Header";
 import Body from './Body'
 import Nav from "./Navigation";
-import { json } from "body-parser";
+import Footer from "./Footer";
 
 function Page(){
     //const msg = locale + "Message";
@@ -35,6 +34,7 @@ function Page(){
 
                 />
                 <Body />
+                <Footer />
             </IntlProvider>
             </>
     );
