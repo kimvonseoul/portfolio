@@ -1,25 +1,22 @@
 {
     "title": "ポートフォリオ",
     "header": "ジョンフのポートフォリオ",
-    "about" : "-基本情報",
+    "about" : "基本情報",
     "about.bd" : "生年月日：2002年06月7日",
     "about.experience" : "ガクチカ",
-    "skills": "-スキル",
+    "skills": "スキル",
     "skills.p1": "基本的なスキル: HTML, CSS, JS, TS, Node.js",
     "skills.p2": "基礎的な知識: python, MySQL, Git&GitHub",
-    "story.title": "-ストーリー",
-    "story.subtitle2": "ラズベリーパイとの出会い",
-    "story.subtitle2.p1": "2018年、高１のときラズベリーパイという教育用コンピューターについて知って、一個購入してみました。最初に私はこれが普通のパソコンだと思いましたけど、実際には違いました。これはモニターもなく、OSもインストールされてないものでした。だから自分でリナックスをインストールして設定もしました。たくさんのコマンドを入力しながら試行錯誤を経って、コンピューターがどうやって作動するかがわかって、コンピューターをそれの作動についての関心が高まりました。",
-    
-    "story.subtitle3": "最初のプロジェクト：ラズベリーパイサーバー、2019年",
-    "story.subtitle3.p1": "ラズベリーパイを購入した後に、これを用いて何ができるかがわからなかったです。そしてネットで「ラズベリーパイでできること」について調べてみて、サーバーが作れることが分かりました。それでサーバーを作るためにはどうすればいいのかについて調べました。ウェブページを作るためにHTMLとCSSを学んで、実際にページが見られるサーバーを作るためにNode.jsを学びました。実際には、なんのサーバーを作ろうかが考えられなかったので、サーバーの運営を長くしてなかったです。しかしこれは次のサーバーを作ることにとって役に立つ機会でした。 ",
+    "story.title": "プロジェクト",    
 
-    "story.subtitle4": "プロジェクト 2: 学校コミュニティーサーバー, 2020年",
-    "story.subtitle4.p1": "友たちとグループチャットで話しながら、チャットだけでは技能が足りないと思って、サーバーを作ってみようと思いました。 ",
-    "story.subtitle4.p2": "Node.jsのフレームワークであるExpressを使って、掲示板のサーバーを作って、データーベースのMySQLを使って投稿とコメントの保存もできるようにしました。 ",
-    "story.subtitle4.p3": "ログインや投稿の編集と削除の技能を追加したにもかかわらず、技能は相変わらず足りなくて、卒業してからサーバーを使う人が減ってしまって、もうそのサーバーは運営してないです。",
-    "story.subtitle5": "Project 3: notification program with using python, 2021",
-    "story.subtitle5.p1": "When I using application of theater site, I felt uncomfortable that there's no notification for new timetable of movies, which makes defficult to book seats I want. So what I did is making a notification program with using python, API of the theater site and API of telegram. With running the program that I coded, I could get seats that I wanted and felt it was useful. Following is an attachment of a rink of the code. ",
-    "story.subtitle6": "Project 4: ウェブポートフォリオ、 2022-現在",
-    "story.subtitle6.p1": "自分のプログラミングスキルを向上させたいと思って、インターンを探しています。だから自分の能力を見せるためにこのポートフォリオを作って、引き続いてアップデートしています。人事担当者さんのご連絡お待ちしております。"
+    "story.subtitle3": "Project 1: Raspberry Pi server, 2020",
+    "story.subtitle3.p1": "Community server for my highschool friends in 2020-2021. The surver was built in raspberry Pi with using HTML, CSS, Express and MySQL.  The Code itself can't be ran since the file doesn't contain MySQL.",
+
+    "story.subtitle4": "Project 2: notification program with using python, 2021",
+    "story.subtitle4.p1": "Get notification on Telegram when the theater starts a certain movie so that I can book the movie. Code built with Python.",
+
+    "story.subtitle5": "Project 3: web portfolio, 2022-present",
+    "story.subtitle5.p1": "To apply for internship, I made this portfolio and keep coding to make it better. Built with React, Typscript and CSS. ",
+    "story.subtitle6": "Project 4: Timetable app, 2023-present",
+    "story.subtitle6.p1": "To make my portfolio better and practice more skills, I'm making timetable app."
 }

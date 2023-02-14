@@ -2,16 +2,25 @@ import React from 'react';
 import Aboutme from './Aboutme';
 import Resume from './Resume';
 import Skills from './Skills';
-import Story from './Story';
+import Projects from './Projects';
 
 function Body() {
     
     return(
         <div className="body">
-            <Aboutme />
-            <Skills />
-            <Resume />
-            <Story />
+            <section id="about">
+                <Aboutme />
+            </section>
+            <section id="skills">
+                <Skills />
+            </section>
+            <section id="resume">
+                <Resume />
+            </section>
+            <section id="projects">
+                <Projects />
+            </section>
+            
         </div>
     )
 }

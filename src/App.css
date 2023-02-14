@@ -1,14 +1,14 @@
 body {
-  background-color: #344142;
+  background-color: white;
   font-size: 1.2em;
+  font-family: Arial, sans-serif;
 }
 
 .App {
   /*padding-left: 20px;
   padding-top: 20px;*/
   min-width: 940px;
-  background-color: #344142;
-  color: white;
+  color: black;
 }
 .header {
   min-width: 940px;
@@ -16,19 +16,31 @@ body {
   height: 90px;
   padding-left: 20px;
   position: fixed;
-  top: 0;
+
   background-color: #000000;
+  color: white;
 }
 .header h1{
   display: inline-block;
+  margin: 10px;
+}
+.header a {
+  color: white;
 }
 .nav {
   display: inline-block;
   padding-left: 20px;
+
 }
-.nav p{
-  margin: 10px;
+.nav a{
+  height: 100%;
+  padding: 10px;
   display: inline-block;
+  border-radius: 7px;
+}
+.nav a:hover{
+  background-color: white;
+  color: black;
 }
 .lang{
   display: inline-block;
@@ -44,31 +56,36 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
-}/*
-.aboutme {
-  display: inline-block;
-  padding-right: 40px;
 }
-.skills {
-  display: inline-block;
-}*/
+section {
+  background-color:  #f2f2f2;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  max-width: 600px;
+}
 .resume{
   padding-left: 40px;
 }
 .resume td{
   padding: 20px;
+  
 }
-.footer {
+#footer {
   text-align: center;
   padding-top: 10px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
   background-color: #000000;
+  color: white;
 }
-.footer h4{
+#footer h4{
   margin-top: 15px;
   margin-bottom: 15px;
+}
+#footer a {
+  color: white;
 }
 /*
 .App-header {
@@ -91,5 +108,6 @@ td {
   border: 1px solid white;
 }
 a {
-  color: white;
+  color: black;
+  text-decoration: none;
 }
