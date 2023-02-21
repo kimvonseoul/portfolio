@@ -18,11 +18,11 @@
     "story.subtitle3": "Project 1: Raspberry Pi server, 2020",
     "story.subtitle3.p1": "Community server for my highschool friends in 2020-2021. The surver was built in raspberry Pi with using HTML, CSS, Node.js and MySQL.  The Code itself can't be ran since the file doesn't contain MySQL. Basic CRUD function for posting with using Express.",
 
-    "story.subtitle4": "Project 2: notification program with using python, 2021",
+    "story.subtitle4": "Project 2: Notification program with using python, 2021",
     "story.subtitle4.p1": "Get notification on Telegram when the theater starts a certain movie so that I can book the movie. Code built with Python, Flask to run a server and Telegram API to get notification.",
 
-    "story.subtitle5": "Project 3: web portfolio, 2022-present",
+    "story.subtitle5": "Project 3: Web portfolio, 2022-present",
     "story.subtitle5.p1": "To apply for internship, I made this portfolio and keep coding to make it better. Built with React, Typscript and CSS. React-intl used for translate languages. ",
     "story.subtitle6": "Project 4: Timetable app, 2023-present",
-    "story.subtitle6.p1": "To make my portfolio better and practice more skills, I'm making timetable app."
+    "story.subtitle6.p1": "To make my portfolio better and practice more skills, I'm making timetable app. Based on React with TypeScript, React-router library uesed to make Single-page Application, redux library uesed to manage states."
 }

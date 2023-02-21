@@ -8,6 +8,7 @@ function Resume(locale:any){
         <div>
         <h3>-Resume</h3>
         <div className="resume">
+            <table>
         <tbody >
             <tr>
                 <td>Education</td>
@@ -41,6 +42,7 @@ function Resume(locale:any){
                 
             </tr>
         </tbody>
+        </table>
         </div>
         </div>
         

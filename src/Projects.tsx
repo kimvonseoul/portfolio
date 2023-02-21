@@ -19,6 +19,7 @@ function Projects(){
                 <FormattedMessage id="story.subtitle5.p1" />
             </p>
             <h4><FormattedMessage id="story.subtitle6" /></h4>
+            <p>Github URL: <a href="https://github.com/kimvonseoul/timetable_app">https://github.com/kimvonseoul/timetable_app</a></p>
             <p>
                 <FormattedMessage id="story.subtitle6.p1" />
             </p>

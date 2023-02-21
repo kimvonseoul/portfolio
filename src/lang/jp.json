@@ -1,6 +1,6 @@
 {
     "title": "ポートフォリオ",
-    "header": "ジョンフのポートフォリオ",
+    "header": "個人ポートフォリオ",
     "about" : "基本情報",
     "about.bd" : "生年月日：2002年06月7日",
     "about.experience" : "ガクチカ",
@@ -9,14 +9,14 @@
     "skills.p2": "基礎的な知識: python, MySQL, Git&GitHub",
     "story.title": "プロジェクト",    
 
-    "story.subtitle3": "Project 1: Raspberry Pi server, 2020",
-    "story.subtitle3.p1": "Community server for my highschool friends in 2020-2021. The surver was built in raspberry Pi with using HTML, CSS, Express and MySQL.  The Code itself can't be ran since the file doesn't contain MySQL.",
+    "story.subtitle3": "プロジェクト１: Raspberry Pi サーバー, 2020",
+    "story.subtitle3.p1": "友たちとのコミュニケーションのため作ったコミュニティーサーバーで、2020年から2021年まで運営しました。HTML、CSS、Node.jsのフレームワークのExpressとMySQLを使って、Raspberry Piにサーバーを構築しました。コードは現在データーベースとの連結が切れているため、そのままでは実行不可能になっています。",
 
-    "story.subtitle4": "Project 2: notification program with using python, 2021",
-    "story.subtitle4.p1": "Get notification on Telegram when the theater starts a certain movie so that I can book the movie. Code built with Python.",
+    "story.subtitle4": "プロジェクト２: pythonを使ったお知らせプログラム, 2021",
+    "story.subtitle4.p1": "映画館の予約が開始されたらTelegramからお知らせがくるアプリケーションです。PythonとFlaskを使ってサーバーを構築し、お知らせを送るためTelegramのAPIを使いました。",
 
-    "story.subtitle5": "Project 3: web portfolio, 2022-present",
-    "story.subtitle5.p1": "To apply for internship, I made this portfolio and keep coding to make it better. Built with React, Typscript and CSS. ",
-    "story.subtitle6": "Project 4: Timetable app, 2023-present",
-    "story.subtitle6.p1": "To make my portfolio better and practice more skills, I'm making timetable app."
+    "story.subtitle5": "プロジェクト 3: Web ポートフォリオ, 2022-現在",
+    "story.subtitle5.p1": "インターンを応募する前に、Webポートフォリオを作りました。ReactとTypscript、CSSを使って、言語が変換できるようにするためReactーIntlというライブラリを使いました。",
+    "story.subtitle6": "プロジェクト 4: 時間割アプリケーション, 2023-現在",
+    "story.subtitle6.p1": "ポートフォリオを補完し自分のプログラミングスキルをアップするため、時間割アプリを作っています。自分の時間割の編集と他のプロフィールの閲覧が機能です。React-routerライブラリを使ってSingleーPageアプリケーションにして、reduxリアブラリを使ってStateを管理します。"
 }
