@@ -23,13 +23,6 @@ function Resume(locale:any){
                 </td>
             </tr>
             <tr>
-                <td>Experience</td>
-                <td>
-                    <h5>making server with raspberrypi,     2019</h5>
-                    <p>used node.js HTML&CSS</p>
-                </td>
-            </tr>
-            <tr>
                 <td>SKILLS</td>
                 <td>
                     <h5>Language </h5>

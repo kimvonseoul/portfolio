@@ -14,9 +14,6 @@ function Body() {
             <section id="skills">
                 <Skills />
             </section>
-            <section id="resume">
-                <Resume />
-            </section>
             <section id="projects">
                 <Projects />
             </section>

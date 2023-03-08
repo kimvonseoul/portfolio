@@ -24,5 +24,5 @@
     "story.subtitle5": "Project 3: Web portfolio, 2022-present",
     "story.subtitle5.p1": "To apply for internship, I made this portfolio and keep coding to make it better. Built with React, Typscript and CSS. React-intl used for translate languages. ",
     "story.subtitle6": "Project 4: Timetable app, 2023-present",
-    "story.subtitle6.p1": "To make my portfolio better and practice more skills, I'm making timetable app. Based on React with TypeScript, React-router library uesed to make Single-page Application, redux library uesed to manage states."
+    "story.subtitle6.p1": "To make my portfolio better and practice more skills, I'm making timetable app. Based on Next.js with TypeScript, redux library uesed to manage states."
 }
